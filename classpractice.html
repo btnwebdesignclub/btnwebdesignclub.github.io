@@ -3,7 +3,7 @@
   <body>
     <div class="firstsection">
 	    <h1>Here is a title</h1>
-	    <p>Here is text with a<a href="https://www.google.com">link</a> within it</p>
+	    <p>Here is text with a <a href="https://www.google.com">link</a> within it</p>
 	    <p>Here is more text</p>
     </div>
   	<div class="imagesection">
@@ -11,6 +11,10 @@
 		  <p>A caption: a picture of sunflowers:</p>
 	  </div>
 <style>
+	body {
+		background-color: gray;
+		font-family: roboto;
+	}
 	.firstsection {
 		margin-left: auto;
 		margin-right: auto;
@@ -18,14 +22,15 @@
 		padding: 20px;
 		border: 3px dashed black;
 		background-color: lightgray;
+		max-width: 70%;
 	}
-  p {
+	p {
 		text-align: center;
 		font-size: 18px;
 	}
 	h1 {
-		text-align: left;
-		font-size: 20px;
+		text-align: center;
+		font-size: 30px;
 		color: red;
 	}
   	a {
@@ -36,13 +41,20 @@
 	.imagesection {
 		padding: 20px;
 		border: 2px solid red;
-		margin: 10px;
-  }
-  img {
-	border-radius: 20%;
-	border: 2px solid black;
-	width: 150px;
-  }
+		margin-top: 20px;
+		margin-bottom: 10%;
+		background-color: #ffeaea;
+		max-width:70%;
+ 	}
+ 	img {
+		border-radius: 30%;
+  		border: 2px solid black;
+  		width: 500px;
+  		margin-left: auto;
+  		margin-right: auto;
+  		display: block;
+  		margin-top: 20px;
+	}
 </style>
   </body>
 </html>
