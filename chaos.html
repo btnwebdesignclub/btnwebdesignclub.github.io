@@ -14,7 +14,7 @@ div {
   background-image: url("https://i.imgur.com/YZXtry3.png)");
   position: relative;
   animation-name: example;
-  animation-duration: 4s;
+  animation-duration: 2s;
   width: 449px;
   height: 284px;
   background-size: contain;
@@ -22,10 +22,11 @@ div {
 
 @keyframes example {
   0%   {left:0px; top:0px;}
-  25%  {left:200px; top:0px;}
-  50%  {left:200px; top:200px;}
-  75%  {left:0px; top:200px;}
-  100% {left:0px; top:0px;}
+  20%  {left:auto; top:100px;}
+  40%  {left:200px; top:20px;}
+  60%  {left:20px; top:auto;}
+  80% {left:600px; top:400px;}
+  100% {left:auto; top:auto;}
 }
 </style>
 </html>
